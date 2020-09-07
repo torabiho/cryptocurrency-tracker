@@ -1,6 +1,6 @@
 {
   "name": "cryptocurrency-tracker",
-  "homepage": "https://github.com/torabiho/cryptocurrency-tracker",
+  "homepage": "https://torabiho.github.io/cryptocurrency-tracker/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
