@@ -77,6 +77,54 @@
   }
 }
 
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+	table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+
+  #cryptocurrency-table {
+    border: none;
+    thead  { 
+      tr { 
+        border: 1px solid #ccc;
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+      }
+    }
+    tbody{
+      tr {
+        margin-bottom: 10px;
+      }
+    }
+    td { 
+      border: none;
+      border-bottom: 1px solid #bbbbbb; 
+      position: relative;
+      padding-left: 40%; 
+      text-align: left;
+      color: #000000;
+
+      &:before { 
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 30%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        text-align: left;
+      }
+    }
+    
+    td:nth-of-type(1):before { content: "Symbol"; }
+    td:nth-of-type(2):before { content: "CMC Rank"; }
+    td:nth-of-type(3):before { content: "Price"; }
+  }
+
+}
+
 
 
 

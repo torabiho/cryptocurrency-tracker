@@ -6,8 +6,10 @@ import CryptocurrenciesTableRows from '../../containers/CryptocurrenciesTableRow
 const DataTable = () => {
     return (
         <table id='cryptocurrency-table'>
-            <tbody>
+            <thead>
                 <CryptocurrenciesTableHeader />
+            </thead>
+            <tbody>
                 <CryptocurrenciesTableRows />
             </tbody>
         </table>
